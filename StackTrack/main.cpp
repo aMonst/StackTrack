@@ -16,8 +16,14 @@ void func3()
 	
 }
 
+void func4()
+{
+	printf("hello\n");
+}
+
 int _tmain(int argc, TCHAR* argv[])
 {
+	func4();
 	func3();
 
 	return 0;
